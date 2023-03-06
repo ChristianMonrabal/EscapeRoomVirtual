@@ -1,0 +1,237 @@
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* DiseÃ±o de columnas */
+.column-1{
+    width: 100%;
+    float: left;
+}
+
+.column-2{
+    width: 50%;
+    float: left;
+}
+
+.column-3{
+    width: 36%;
+    float: left;
+}
+
+.column-3-15 {
+    width: 20%;
+    float: left;
+}
+
+.column-4{
+    width: 40%;
+    float: left;
+}
+
+.column-5{
+    width: 20%;
+    float: left;
+}
+
+.column-6{
+    width: 16.66%;
+    float: left;
+}
+
+.column-75{
+    width: 75%;
+    float: left;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos Navbar */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --bg-color: #000000;
+    --text-color: #fff;
+    --main-color: #29fd53;
+}
+
+body {
+    min-height: 100vh;
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 28px 12%;
+    transition: all .50s ease;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo span {
+    color: var(--text-color);
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0px 30px;
+    transition: all .50s ease;
+}
+
+.navbar a:hover {
+    color: var(--main-color);   
+}
+
+.navbar a.active {
+    color: var(--main-color);
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.main a {
+    margin-right: 25px;
+    margin-left: 10px;
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all .50s ease;
+}
+
+
+/* Explicacion */
+
+.exp {
+    padding-top: 15%;
+    padding-left: 10%;
+    padding-right: 30%;
+    text-align: center;
+}
+
+/* Texto */
+
+.texto {
+    padding: 7%;
+    text-decoration: none;
+}
+
+.border {
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+/* Boton Jugar */
+
+.btn-jugar {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.texto2 {
+   padding-top: 30%;
+   padding-left: 80%;
+   text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+/* Pantalla 1 */
+
+.acertijo1 {
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 18%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+input {
+    background-color: white;
+    border: 7px solid white;
+    border-radius: 50px;
+    width: 50%;
+    text-align: center;
+}
+
+.btn {
+    background-color: white;
+    border: 7px solid white;
+    border-radius: 50px;
+    width: 100px;
+}
+
+/* Pista */
+
+#menu {
+ display: none;
+ position: fixed;
+ padding-top: 5%;
+ padding-left: 82%;
+}
+
+#pista {
+ display: none;
+ position: fixed;
+ padding-top: 5%;
+ padding-left: 79%;
+}
+
+#pantalla {
+    display: none;
+    position: fixed;
+    padding-top: 5%;
+    padding-left: 82%; 
+}
+
+#desc {
+    display: none;
+    position: fixed;
+    padding-top: 5%;
+    padding-left: 82.5%;
+   }
+
+
+/* Contador */
+
+  
