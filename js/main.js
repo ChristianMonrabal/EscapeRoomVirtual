@@ -1,3 +1,5 @@
+// Desplegable Pista
+
 function toggleMenu() {
     var menu = document.getElementById("menu");
     if (menu.style.display === "none") {
@@ -52,4 +54,50 @@ function toggleMenu() {
     }
   }
 
+// Contador
+
+let minutos = 10;
+let segundos = 0;
+cargarSegundo();
+
+function cargarSegundo(){
+  let txtSegundos;
+
+  if(segundos < 0){
+    segundos = 59;
+  }
+
+  if(segundos <0){
+    txtSegundos = '0${segundos}';
+  }else {
+    txtSegundos = segundos;
+  }
+  document.getElementById('segundos').innerHTML = txtSegundos;
+  segundos --;
+
+  cargarMinutos(segundos);
+}
+
+function cargarMinutos(segundos){
+  let txtMinutos;
+
+  if(segundos == -1 && minutos !==0){
+    setTimeout(()=> {
+      minutos = 0 ;
+    },500)
+  }else if (segundos == -1 && minutos !==0){
+    setTimeout(()=> {
+      minutos = 59;
+    },500)
+  }
+
+  if(minutos < 10){
+    txtMinutos = '0${minutos}';
+  }else {
+    txtMinutos = minutos;
+  }
+  document.getElementById('minutos').innetHTML = txtMinutos;
+}
+
+setInterval(cargarSegundo, 1000)
 

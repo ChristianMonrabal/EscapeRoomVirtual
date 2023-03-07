@@ -1,3 +1,21 @@
+<?php
+session_start();
+
+if (isset($_POST['submit'])) {
+    // Código correcto
+  $codigo_correcto = "sudo ifconfig enp0s3 down"; 
+
+  if ($_POST['codigo'] == $codigo_correcto) {
+
+    $_SESSION['codigo_valido'] = true;
+    header("Location: ../index.html");
+    exit();
+  } else {
+    // Codigo incorrecto
+    $mensaje_error = "No es correcto, prueba otra vez";
+  }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,37 +33,58 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Poppins:wght@300;700&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Poppins:wght@300;700&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
 </head>
+</html>
 <body>
-     <!--Navbar-->
-    <header>
-        <a href="#" class="logo"></i><span>Escape Room Virtual</span>
-        </a>
-        <ul class="navbar">
-            <li><a href="#" class="active"></a></li>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="#"><a onclick="toggleDesconect()">Pista</button></a></li>
-        </ul>
-    </header>
+<header>
+  <a href="#" class="logo"></i><span>Escape Room Virtual</span>
+  </a>
+  <ul class="navbar">
+    <li><a href="#" class="active"></a></li>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="#"><a onclick="toggleDesconect()">Pista</button></a></li>
+  </ul>
+</header>
     <!--Pista-->
-    <div id="desc">
-            <p>Interfaz: enp0s3</p>
-        </div>
+  <div id="desc">
+    <p>Interfaz: enp0s3</p>
+  </div>
      <!--Acertijo-->
-     <p style="color: black;">i</p>
-     <div class="acertijo1">
-        <form class="formulario" action="./pantalla5.php" method="post">
-            <h3>Desconecta el servidor de la red</h3>
-            <br>
-            <input type="text" name="resp5" placeholder="Escribe el comando necesario..." required>
-            <br>
-            <br>
-            <button class="btn" type="submit">Enviar</button>
-            <br>
-        </form>
+  <p style="color: black;">i</p>
+  <div class="acertijo1">
+  <form class="formulario" method="post">
+    <h3>Desconecta el servidor de la red</h3>
+    <br>
+    <input type="text" name="codigo" id="codigo" placeholder="Escribe el comando necesario..." required>
+    <br>
+    <br>
+    <button class="btn" type="submit" name="submit">Enviar</button>
+    <br>
+  </form>
+  </div>
+
+
+<!--Mostrar mensaje si el codigo no es correcto-->
+<?php if (isset($mensaje_error)): ?>
+    <br>
+  <h3 class="resp"><?php echo $mensaje_error; ?></h3>
+<?php endif; ?>
+    
+<!--Cuenta atras-->
+    <div class="cont-temporizador">
+        <div class="bloque">
+            <div class="minutos" id="minutos">2</div>
+            <p>MINUTOS</p>
+        </div>
+        <div class="bloque">
+            <div class="segundos" id="segundos">--</div>
+            <p>SEGUNDOS</p>
+        </div>
      </div>
+     <!--Enlace JavaScript-->
 <script src="../js/main.js"></script>
 </body>
+</html>
