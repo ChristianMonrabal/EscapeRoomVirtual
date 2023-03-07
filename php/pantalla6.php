@@ -27,20 +27,20 @@
         <ul class="navbar">
             <li><a href="#" class="active"></a></li>
             <li><a href="../index.html">Home</a></li>
-            <li><a href="#"><a onclick="togglePantalla()">Pista</button></a></li>
+            <li><a href="#"><a onclick="toggleDesconect()">Pista</button></a></li>
         </ul>
     </header>
     <!--Pista-->
-    <div id="pantalla">
-            <p>Net****ing restart</p>
+    <div id="desc">
+            <p>Interfaz: enp0s3</p>
         </div>
      <!--Acertijo-->
      <p style="color: black;">i</p>
      <div class="acertijo1">
-        <form class="formulario" action="./pantalla4.php" method="post">
-            <h3>Reinicia la interfaz de red</h3>
+        <form class="formulario" action="./pantalla5.php" method="post">
+            <h3>Desconecta el servidor de la red</h3>
             <br>
-            <input type="text" name="resp4" placeholder="Escribe el comando necesario..." required>
+            <input type="text" name="resp5" placeholder="Escribe el comando necesario..." required>
             <br>
             <br>
             <button class="btn" type="submit">Enviar</button>

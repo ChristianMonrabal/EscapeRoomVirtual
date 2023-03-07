@@ -210,6 +210,13 @@ input {
  padding-left: 82%;
 }
 
+#upgrade {
+    display: none;
+    position: fixed;
+    padding-top: 5%;
+    padding-left: 79%;
+}
+
 #pista {
  display: none;
  position: fixed;
@@ -222,6 +229,13 @@ input {
     position: fixed;
     padding-top: 5%;
     padding-left: 82%; 
+}
+
+#clamav {
+    display: none;
+    position: fixed;
+    padding-top: 5%;
+    padding-left: 83%; 
 }
 
 #desc {

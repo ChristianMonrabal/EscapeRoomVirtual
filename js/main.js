@@ -7,6 +7,15 @@ function toggleMenu() {
     }
   }
 
+  function toggleUpdate() {
+    var upgrade = document.getElementById("upgrade");
+    if (upgrade.style.display === "none") {
+      upgrade.style.display = "block";
+    } else {
+      upgrade.style.display = "none";
+    }
+  }
+
   function togglePista() {
     var pista = document.getElementById("pista");
     if (pista.style.display === "block") {
@@ -22,6 +31,15 @@ function toggleMenu() {
       pantalla.style.display = "none";
     } else {
       pantalla.style.display = "block";
+    }
+  }
+
+  function toggleScan() {
+    var clamav = document.getElementById("clamav");
+    if (clamav.style.display === "block") {
+      clamav.style.display = "none";
+    } else {
+      clamav.style.display = "block";
     }
   }
  

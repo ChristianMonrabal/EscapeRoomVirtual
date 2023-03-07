@@ -27,18 +27,18 @@
         <ul class="navbar">
             <li><a href="#" class="active"></a></li>
             <li><a href="../index.html">Home</a></li>
-            <li><a href="#"><a onclick="togglePista()">Pista</button></a></li>
+            <li><a href="#"><a onclick="toggleUpdate()">Pista</button></a></li>
         </ul>
     </header>
     <!--Pista-->
-    <div id="pista">
-            <p>Orden que muestra la dirección IP</p>
+    <div id="upgrade">
+            <p>Contiene up***e y up****e</p>
         </div>
      <!--Acertijo-->
      <p style="color: black;">i</p>
      <div class="acertijo1">
         <form class="formulario" action="./pantalla2.php" method="post">
-            <h3>Muestra las interfaces de red</h3>
+            <h3>Actualiza los paquetes y el sistema en una misma orden</h3>
             <br>
             <input type="text" name="resp2" placeholder="Escribe el comando necesario..." required>
             <br>
@@ -49,4 +49,3 @@
      </div>
 <script src="../js/main.js"></script>
 </body>
-
