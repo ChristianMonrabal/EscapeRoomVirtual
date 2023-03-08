@@ -8,7 +8,7 @@ if (isset($_POST['submit'])) {
   if ($_POST['codigo'] == $codigo_correcto) {
 
     $_SESSION['codigo_valido'] = true;
-    header("Location: ../index.html");
+    header("Location: pantallafinal.html");
     exit();
   } else {
     // Codigo incorrecto

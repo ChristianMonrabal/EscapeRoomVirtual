@@ -52,7 +52,7 @@ if (isset($_POST['submit'])) {
   <div id="menu">
     <p>Contiene iptables</p>
   </div>
-     <!--Acertijo-->
+    <!--Acertijo-->
   <p style="color: black;">i</p>
   <div class="acertijo1">
   <form class="formulario" method="post">
@@ -83,8 +83,8 @@ if (isset($_POST['submit'])) {
             <div class="segundos" id="segundos">--</div>
             <p>SEGUNDOS</p>
         </div>
-     </div>
-     <!--Enlace JavaScript-->
+    </div>
+      <!--Enlace JavaScript-->
 <script src="../js/main.js"></script>
 </body>
 </html>

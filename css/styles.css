@@ -184,7 +184,7 @@ a {
     margin-right: 30%;
     padding-top: 2%;
     padding-bottom: 2%;
-  }
+}
 
 input {
     background-color: white;
@@ -283,10 +283,34 @@ input {
     color: #ffffff;
 }
 
-/* Respuesta */
+/* Respuesta input */
 .resp {
     text-align: center;
 }
 
+/* Pantalla final */
 
-  
+.txt {
+    padding-top: 22%;
+    text-align: center;
+}
+
+#mensaje {
+    font-size: 60px;
+}
+
+.btn-fnl {
+    padding-top: 5%;
+    text-align: center;
+}
+
+.btn-final {
+    width: 20%;
+    color: #000000;
+    padding: 0.5%;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 12%;
+}
