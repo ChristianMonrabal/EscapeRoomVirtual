@@ -76,7 +76,7 @@ if (isset($_POST['submit'])) {
 <!--Cuenta atras-->
     <div class="cont-temporizador">
         <div class="bloque">
-            <div class="minutos" id="minutos">2</div>
+            <div class="minutos" id="minutos">0</div>
             <p>MINUTOS</p>
         </div>
         <div class="bloque">

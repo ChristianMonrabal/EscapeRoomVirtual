@@ -52,7 +52,7 @@ if (isset($_POST['submit'])) {
   <div id="pista">
     <p>Orden que muestra la dirección IP</p>
   </div>
-     <!--Acertijo-->
+    <!--Acertijo-->
   <p style="color: black;">i</p>
   <div class="acertijo1">
   <form class="formulario" method="post">
@@ -74,15 +74,15 @@ if (isset($_POST['submit'])) {
 <!--Cuenta atras-->
     <div class="cont-temporizador">
         <div class="bloque">
-            <div class="minutos" id="minutos">2</div>
+            <div class="minutos" id="minutos">0</div>
             <p>MINUTOS</p>
         </div>
         <div class="bloque">
             <div class="segundos" id="segundos">--</div>
             <p>SEGUNDOS</p>
         </div>
-     </div>
-     <!--Enlace JavaScript-->
+    </div>
+    <!--Enlace JavaScript-->
 <script src="../js/main.js"></script>
 </body>
 </html>
