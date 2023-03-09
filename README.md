@@ -7,8 +7,11 @@ Pantallas del Escape Room Virtual:
 5. Escanea el sistema de archivos completo con la herramienta clamav
 6. Desconecta el servidor de la red
 
-- Completa cada pantalla en un tiempo maximo de 3 minutos
-- Cada pantalla cuenta con un boton desplegable que contiene una pista para resolver de forma mas sencilla
-- No hay una cantidad maxima de intentos, por lo que no te preocupes por fallar mas de una vez
+Reglas del juego:
 
-By Christian Monrabal & Juan Carlos Prado
+1. Completa cada pantalla en un tiempo maximo de 3 minutos
+2. Cada pantalla cuenta con un boton desplegable que contiene una pista para resolver de forma mas sencilla
+3. No hay una cantidad maxima de intentos, por lo que no te preocupes por fallar mas de una vez
+
+
+By [Christian Monrabal](https://github.com/christian-monrabal?tab=repositories) & [Juan Carlos Prado](https://github.com/JuanCarlospg)

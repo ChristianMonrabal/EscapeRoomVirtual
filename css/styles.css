@@ -166,9 +166,9 @@ header {
 }
 
 .texto2 {
-   padding-top: 30%;
-   padding-left: 80%;
-   text-decoration: none;
+    padding-top: 30%;
+    padding-left: 80%;
+    text-decoration: none;
 }
 
 a {
@@ -206,10 +206,10 @@ input {
 /* Pistas */
 
 #menu {
- display: none;
- position: fixed;
- padding-top: 5%;
- padding-left: 82%;
+    display: none;
+    position: fixed;
+    padding-top: 5%;
+    padding-left: 82%;
 }
 
 #upgrade {
@@ -220,10 +220,10 @@ input {
 }
 
 #pista {
- display: none;
- position: fixed;
- padding-top: 5%;
- padding-left: 79%;
+    display: none;
+    position: fixed;
+    padding-top: 5%;
+    padding-left: 79%;
 }
 
 #pantalla {
@@ -245,7 +245,7 @@ input {
     position: fixed;
     padding-top: 5%;
     padding-left: 82.5%;
-   }
+}
 
 
 /* Cuenta atras */
@@ -311,6 +311,8 @@ input {
     color: #000000;
     padding: 0.5%;
 }
+
+/* Footer */
 
 .footer {
     text-align: center;
