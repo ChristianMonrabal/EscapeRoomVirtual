@@ -19,4 +19,7 @@ Donaciones:
 2. Por supuesto jugar es totalmente gratis, pero si has disfrutado podrias ayudarme con una pequeña intervención
 3. Puedes acceder también desde este [enlace](https://patreon.com/EscapeRoomVirtual?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_fan&utm_content=join_link)
 
+<a href="https://www.buymeacoffee.com/christianmd"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
+
+
 By [Christian Monrabal](https://github.com/christian-monrabal?tab=repositories) & [Juan Carlos Prado](https://github.com/JuanCarlospg)
