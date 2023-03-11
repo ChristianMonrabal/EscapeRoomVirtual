@@ -39,6 +39,7 @@ if (isset($_POST['submit'])) {
 </head>
 </html>
 <body>
+<div id="particles-js"></div>
 <header>
   <a href="#" class="logo"></i><span>Escape Room Virtual</span>
   </a>
@@ -84,5 +85,7 @@ if (isset($_POST['submit'])) {
     </div>
     <!--Enlace JavaScript-->
 <script src="../js/main.js"></script>
+<script src="../js/particles.min.js"></script>
+<script src="../js/particulas.js"></script>
 </body>
 </html>

@@ -44,7 +44,7 @@ function toggleMenu() {
       clamav.style.display = "block";
     }
   }
- 
+  
   function  toggleDesconect() {
     var desc = document.getElementById("desc");
     if (desc.style.display === "block") {
@@ -98,8 +98,4 @@ function cargarMinutos(segundos){
   }
   document.getElementById('minutos').innetHTML = txtMinutos;
 }
-
-setInterval(cargarSegundo, 1000)
-
-// Background
 

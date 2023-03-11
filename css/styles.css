@@ -319,4 +319,14 @@ input {
     padding-top: 12%;
 }
 
-/* Background */
+/* Particulas */
+#particles-js {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+#error {
+    text-align: center;
+}
