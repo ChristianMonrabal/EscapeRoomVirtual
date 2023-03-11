@@ -16,7 +16,7 @@ Reglas del juego:
 Donaciones:
 
 1. En la pestaña principal del Escape Room, aparece un boton de donar
-2. Por supuesto jugar es totalmente gratis, pero si has disfrutado podrias ayudarme con una intervención
+2. Jugar es totalmente gratis, pero si has disfrutado podrias ayudarme con una pequeña intervención
 3. Puedes acceder también desde este [enlace](https://patreon.com/EscapeRoomVirtual?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_fan&utm_content=join_link)
 
 By [Christian Monrabal](https://github.com/christian-monrabal?tab=repositories) & [Juan Carlos Prado](https://github.com/JuanCarlospg)
