@@ -101,3 +101,5 @@ function cargarMinutos(segundos){
 
 setInterval(cargarSegundo, 1000)
 
+// Background
+
