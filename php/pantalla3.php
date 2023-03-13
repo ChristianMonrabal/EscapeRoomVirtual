@@ -1,5 +1,11 @@
 <?php
+// Creamos la sesion
 session_start();
+$_SESSION['pantalla3_completado'] = false;
+if (!isset($_SESSION['pantalla2_completado']) || $_SESSION['pantalla2_completado'] != true) {
+  header("Location: pantalla2.php");
+  exit;
+}
 
 if (isset($_POST['submit'])) {
     // Código correcto
@@ -9,6 +15,7 @@ if (isset($_POST['submit'])) {
 
     $_SESSION['codigo_valido'] = true;
     header("Location: pantalla4.php");
+    $_SESSION['pantalla3_completado'] = true;
     exit();
   } else {
     // Codigo incorrecto

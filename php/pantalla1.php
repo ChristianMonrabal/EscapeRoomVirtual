@@ -1,5 +1,7 @@
 <?php
 session_start();
+$_SESSION['pantalla1_completado'] = false;
+
 
 if (isset($_POST['submit'])) {
     // Código correcto
@@ -9,6 +11,7 @@ if (isset($_POST['submit'])) {
 
     $_SESSION['codigo_valido'] = true;
     header("Location: pantalla2.php");
+    $_SESSION['pantalla1_completado'] = true;
     exit();
   } else {
     // Codigo incorrecto
@@ -92,6 +95,3 @@ if (isset($_POST['submit'])) {
 <script src="../js/particulas.js"></script>
 </body>
 </html>
-
-
-

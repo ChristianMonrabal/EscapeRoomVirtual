@@ -1,5 +1,15 @@
 <?php
+// Creamos la sesion
 session_start();
+$_SESSION['pantalla2_completado'] = false;
+// Pantalla anterior
+if (!isset($_SESSION['pantalla1_completado']) || $_SESSION['pantalla1_completado'] != true) {
+  header("Location: pantalla1.php");
+  exit;
+}
+
+// Aquí va el código de la página "formulario2.php"
+
 
 if (isset($_POST['submit'])) {
     // Código correcto
@@ -9,6 +19,7 @@ if (isset($_POST['submit'])) {
 
     $_SESSION['codigo_valido'] = true;
     header("Location: pantalla3.php");
+    $_SESSION['pantalla2_completado'] = true;
     exit();
   } else {
     // Codigo incorrecto
