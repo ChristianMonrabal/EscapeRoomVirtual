@@ -2,10 +2,10 @@ Pantallas del Escape Room Virtual:
 
 1. Comprobar el estado del firewall
 2. Actualizar todos los paquetes y software
-3. Muestra las interfaces de red junto a la dirección IP 
+3. Mostrar las interfaces de red junto a la dirección IP 
 4. Reiniciar interfaces de red 
-5. Escanea el sistema de archivos completo con la herramienta clamav
-6. Desconecta el servidor de la red
+5. Escanear el sistema de archivos completo con la herramienta clamav
+6. Desconectar el servidor de la red
 
 Reglas del juego:
 
